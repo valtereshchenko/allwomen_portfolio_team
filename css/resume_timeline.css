@@ -1,0 +1,33 @@
+.resume {
+    display: flex;
+}
+.resume h2 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+.resume h1 {
+    font-size: 2.4em;
+}
+div.experiences {
+    align-items: left;
+    display: flex;
+}
+div.bubble {
+    background-color: #0019ff;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    align-items: left;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    font-size: smaller;
+    align-self: left;
+    float: left;
+    margin-right: 1rem;
+
+}
+.experiences h2 {
+    margin: 0;
+    padding: 0;
+}
