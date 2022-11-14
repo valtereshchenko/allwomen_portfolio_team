@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+.table table {
+    color: white;
+    border: none;
+    background-color: #575C90;
+    width: 80%;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #53B3B3, #8262A1);
+    border-collapse: collapse;
+}
+
+.table td, th {
+    padding: 10px;
+    text-align: left;
+}
+
+.table h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.table a {
+    color: white;
+    text-decoration: none;
+}
+
+table tr:hover {
+    background: rgba(255,255,255, 0.5);
+}
+
+table th{
+    background-color: #575C90;
+    border: none;
+}
