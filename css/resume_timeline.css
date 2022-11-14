@@ -31,3 +31,8 @@ div.bubble {
     margin: 0;
     padding: 0;
 }
+p.company {
+    font-size: 0.8rem;
+    padding:0;
+    margin:0;
+}
