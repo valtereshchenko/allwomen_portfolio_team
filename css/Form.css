@@ -1,0 +1,54 @@
+:root{
+    --main-box-color:#F9C6C2;
+    --border-button:#72EDCA;
+}
+
+.contact .formcontainer{
+    background-color: var(--main-box-color);
+    border: 2px solid var(--border-button) ;
+    display: flex;
+    padding: 1rem;
+}
+.contact .formimage{
+
+    margin: 6%;
+}
+
+.contact form{
+    display: grid;
+    height: 70%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 20% 20% 30% 15% 15%;
+    padding-right: 10px;
+    gap: 2%;
+
+}
+
+.contact .double{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.contact label{
+
+    display: block;
+}
+
+.contact textarea, input:not(.checkbox){
+    width: 100%;    
+}
+.contact input{
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+.contact button{
+    border-style: none;
+    border-radius: 15px;
+    background-color: var(--border-button);
+}
+.contact p{
+    margin: 0;
+    padding: 0;
+}
+
