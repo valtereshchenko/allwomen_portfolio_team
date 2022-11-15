@@ -3,14 +3,14 @@
     --border-button: #72EDCA;
 }
 
-#contact .formcontainer {
+#contact .formContainer {
     background-color: var(--main-box-color);
     border: 2px solid var(--border-button);
     display: flex;
     padding: 1rem;
 }
 
-#contact .formimage {
+#contact .formImage {
 
     margin: 6%;
 }
