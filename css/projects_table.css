@@ -3,8 +3,6 @@
 }
 .projectTable table {
     color: white;
-    border: none;
-    background-color: #575C90;
     width: 95%;
     margin: 0 auto;
     background-image: linear-gradient(45deg, #6DB2B1, #7E599C);
