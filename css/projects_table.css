@@ -1,30 +1,35 @@
 * {
     box-sizing: border-box;
 }
-.table table {
+.projectTable table {
     color: white;
     border: none;
     background-color: #575C90;
     width: 95%;
     margin: 0 auto;
-    background-image: linear-gradient(to right, #53B3B3, #8262A1);
+    background-image: linear-gradient(45deg, #6DB2B1, #7E599C);
     border-collapse: collapse;
 }
 
-.table td, th {
+table td, th {
     padding: 10px;
     text-align: left;
 }
 
-.table h2 {
+.projectTable h2 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     text-align: center;
 }
 
-.table a {
+table a {
     color: white;
     text-decoration: none;
+}
+
+table a:hover {
+    color white;
+    text-decoration: underline;
 }
 
 table tr:hover {
@@ -32,6 +37,6 @@ table tr:hover {
 }
 
 table th{
-    background-color: #575C90;
+    background-color: #55608f;
     border: none;
 }
