@@ -26,7 +26,7 @@
     border-left: 2px solid black;
     z-index: -1;
 }
-.experiences div, div.bubble, h2, p.company{
+.experiences div, div.bubble, .experiences h2, p.company{
     display: inline-block;
 }
 
