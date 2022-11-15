@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Jane Doe | My Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,8 +12,10 @@
     <link rel="stylesheet" href="css/resume_timeline.css">
     <link rel="stylesheet" href="css/projects_table.css">
     <link rel="icon" href="images/mp.png">
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/Form.css">
+</head>
+
+<body>
     <header>
         <div class="container">
             <div class="logo">
@@ -20,9 +23,9 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#" class="active">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="active">Project</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -68,59 +71,106 @@
 
             <!-- RESUME TIMELINE -->
             <section class="resume">
-            <section class="experiences">
-                <h1>Experiences</h1>
-                <div class="bubble">2019</div>
-                <div>
-                    <h2>Project Manage</h2>
-                    <p>Best Studio</p>
-                    <p>Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a faucibus nunc.</p>
-                </div>
-                <div>
-                    <div class="bubble">2018</div>
-                    <h2>UX Designer</h2>
-                    <p>Digital Ace</p>
-                    <p>Fusce rutrum augue id orci rhoncus molestie. Nunc auctor dignissim lacus vel iaculis.</p>
-                </div>
-                <div>
-                    <div class="bubble">2016</div>
-                    <h2>UI Freelancer</h2>
-                    <p>Sed fringilla vitae enim sit amet cursus. Sed cursus dictum tortor quis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                </div>
-                <div>
-                    <div class="bubble">2014</div>
-                    <h2>Junior Designer</h2>
-                    <p>Crafted Co.</p>
-                    <p>Cras scelerisque scelerisque condimentum. Nullam at volutpat mi. Nunc auctor ipsum eget magna consequat viverra.</p>
-                </div>
+                <section class="experiences">
+                    <h1>Experiences</h1>
+                    <div class="bubble">2019</div>
+                    <div>
+                        <h2>Project Manage</h2>
+                        <p>Best Studio</p>
+                        <p>Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat.
+                            Cras ac fermentum nunc, a faucibus nunc.</p>
+                    </div>
+                    <div>
+                        <div class="bubble">2018</div>
+                        <h2>UX Designer</h2>
+                        <p>Digital Ace</p>
+                        <p>Fusce rutrum augue id orci rhoncus molestie. Nunc auctor dignissim lacus vel iaculis.</p>
+                    </div>
+                    <div>
+                        <div class="bubble">2016</div>
+                        <h2>UI Freelancer</h2>
+                        <p>Sed fringilla vitae enim sit amet cursus. Sed cursus dictum tortor quis pharetra.
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                            egestas.</p>
+                    </div>
+                    <div>
+                        <div class="bubble">2014</div>
+                        <h2>Junior Designer</h2>
+                        <p>Crafted Co.</p>
+                        <p>Cras scelerisque scelerisque condimentum. Nullam at volutpat mi. Nunc auctor ipsum eget magna
+                            consequat viverra.</p>
+                    </div>
+                </section>
+                <section class="education">
+                    <h1>Education</h1>
+                    <div>
+                        <div class="bubble">2017</div>
+                        <h2>Mobile Web</h2>
+                        <p>Master Design</p>
+                        <p>Please tell your friends about Tooplate website. That would be very helpful. We need your
+                            support.</p>
+                    </div>
+                    <div>
+                        <div class="bubble">2015</div>
+                        <h2>User Interfaces</h2>
+                        <p>Creative Agency</p>
+                        <p>Tooplate is a great website to download HTML templates without any login or email.</p>
+                    </div>
+                    <div>
+                        <div class="bubble">2013</div>
+                        <h2>Artwork Design</h2>
+                        <p>New Art School</p>
+                        <p>You can freely use Tooplate's templates for your business or personal sites. You cannot
+                            redistribute this template without a permission.</p>
+                    </div>
+                </section>
             </section>
-            <section class="education">
-                <h1>Education</h1>
-                <div>
-                    <div class="bubble">2017</div>
-                    <h2>Mobile Web</h2>
-                    <p>Master Design</p>
-                    <p>Please tell your friends about Tooplate website. That would be very helpful. We need your support.</p>
-                </div>
-                <div>
-                    <div class="bubble">2015</div>
-                    <h2>User Interfaces</h2>
-                    <p>Creative Agency</p>
-                    <p>Tooplate is a great website to download HTML templates without any login or email.</p>
-                </div>
-                <div>
-                    <div class="bubble">2013</div>
-                    <h2>Artwork Design</h2>
-                    <p>New Art School</p>
-                    <p>You can freely use Tooplate's templates for your business or personal sites. You cannot redistribute this template without a permission.</p>
-                </div>
-            </section>
-            </section>
-                
-        <!-- CONTACT -->
 
-            <section class="contact">
+            <!-- CONTACT -->
 
+            <section id="contact">
+                <div class="formContainer">
+                    <div class="formImage">
+                        <img src="images/form-img.png">
+                    </div>
+
+                    <div>
+                        <h2> Interested to work together? Let's talk</h2>
+                        <form>
+                            <div><label for="name">
+                                    Your name
+                                </label>
+                                <input type="text" id="name">
+                            </div>
+                            <div><label for="email">
+                                    Email
+                                </label>
+                                <input type="email" id="email">
+                            </div>
+                            <div><label for="phone">
+                                    Phone
+                                </label>
+                                <input type="tel" id="phone">
+                            </div>
+                            <div><label for="country">
+                                    Country
+                                </label>
+                                <input type="text" id="country">
+                            </div>
+                            <div class="double"><label for="Message">
+                                    Message
+                                </label>
+                                <textarea id="Message" rows="2"> </textarea>
+                            </div>
+                            <div class="double">
+                                <p><input type="checkbox" class="checkbox">I have read and accept the <a href="#"> Terms
+                                        and conditions</a></p>
+                            </div>
+                            <button type="submit"> Send </button>
+                        </form>
+
+                    </div>
+                </div>
             </section>
 
         </div>
@@ -128,7 +178,8 @@
 
     <footer>
 
-     </footer>
+    </footer>
 
-  </body>
+</body>
+
 </html>
