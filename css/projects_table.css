@@ -26,7 +26,7 @@ table a {
 }
 
 table a:hover {
-    color white;
+    color: white;
     text-decoration: underline;
 }
 
